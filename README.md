@@ -3,6 +3,7 @@ ladder
 
 # FOR google cloud 
 1、register google cloud Account and set up VM instance 
+
   region and zone
   machine OS : cenOS
   allow http and https
@@ -12,7 +13,9 @@ ladder
     key can be created and added after instance created.)
     
 2、test ip ping ,port and route
+
   http://tool.chinaz.com/port/ (port 22 allowed)
+  
   https://tools.ipip.net/traceroute.php (ping < 50 ms)
   
 3、set up Departure and Inbound services
@@ -39,4 +42,6 @@ ladder
   
 6、to find our way
   
- 
+# FOR vultr
+
+SAME AS google cloud except for Departure and Inbound services
