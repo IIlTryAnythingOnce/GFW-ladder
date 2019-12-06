@@ -5,18 +5,21 @@ ladder
 1、register google cloud Account and set up VM instance 
 
   region and zone
+  
   machine OS : cenOS
+  
   allow http and https
+  
   select security to add SSH key from XShell or not 
   
-    (for XShell to connect VPS.if not ,we must connect VPS by SSH of browser.
+    (for XShell to connect to VPS.if not,we must connect to VPS by SSH of browser.
     key can be created and added after instance created.)
     
 2、test ip ping ,port and route
 
   http://tool.chinaz.com/port/ (port 22 allowed)
   
-  https://tools.ipip.net/traceroute.php (ping < 50 ms)
+  https://tools.ipip.net/traceroute.php (making sure that ping < 50 ms)
   
 3、set up Departure and Inbound services
 
@@ -35,10 +38,11 @@ ladder
     systemctl stop firewalld && systemctl disable firewalld (or not)
     
     v2ray ssqr (for ss)
+    v2ray url (for v2ray)
     
 5、configuration in pc or mobile
 
-  add configuration in VPC and v2ray
+  add configuration from VPC and v2ray
   
 6、to find our way
   
